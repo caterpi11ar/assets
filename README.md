@@ -1,4 +1,4 @@
-# caterpillar-soft / assets
+# caterpi11ar / assets
 
 通用资源库，集中存放品牌标识、图标、版权声明和联系信息等可复用素材。
 
@@ -34,7 +34,7 @@ When referencing assets from this repository in other projects, it is recommende
 **Git 子模块 / Git submodule:**
 
 ```bash
-git submodule add https://github.com/caterpillar-soft/assets.git assets
+git submodule add https://github.com/caterpi11ar/assets.git assets
 ```
 
 **直接引用 / Direct reference:**
@@ -47,8 +47,8 @@ Copy the required files into the target project and note the source version in t
 
 ## 版权 / Copyright
 
-Copyright © 2026 caterpillar-soft. All rights reserved.
+Copyright © 2026 caterpi11ar. All rights reserved.
 
-本仓库内容仅供 caterpillar-soft 内部项目使用，未经授权不得用于商业或外部用途。
+本仓库内容仅供 caterpi11ar 内部项目使用，未经授权不得用于商业或外部用途。
 
-The contents of this repository are for internal caterpillar-soft projects only and may not be used for commercial or external purposes without authorization.
+The contents of this repository are for internal caterpi11ar projects only and may not be used for commercial or external purposes without authorization.
