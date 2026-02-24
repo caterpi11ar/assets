@@ -13,7 +13,8 @@ assets/
 ├── logo/         # 品牌标志 / Brand logos
 ├── icon/         # 应用图标 / App & platform icons
 ├── copyright/    # 版权声明模板 / Copyright notice templates
-└── contact/      # 联系信息模板 / Contact info templates
+├── contact/      # 联系信息模板 / Contact info templates
+└── skills/       # Agent skill 定义 / Agent skill definitions
 ```
 
 | 文件夹 / Folder | 用途 / Purpose |
@@ -22,6 +23,7 @@ assets/
 | `icon/` | 应用图标、favicon、各平台图标集 / App icons, favicons, platform-specific icon sets |
 | `copyright/` | 版权声明模板、许可证声明片段 / Copyright statement templates, license notice snippets |
 | `contact/` | 联系方式模板（邮箱、社交账号等）/ Contact info templates (email, social handles, etc.) |
+| `skills/` | Agent skill 定义（skills.sh），可通过 `npx skills add` 安装 / Agent skill definitions (skills.sh), installable via `npx skills add` |
 
 ---
 
@@ -42,6 +44,16 @@ git submodule add https://github.com/caterpi11ar/assets.git assets
 将所需文件复制到目标项目中，并在提交信息中注明来源版本。
 
 Copy the required files into the target project and note the source version in the commit message.
+
+**Agent Skill ([skills.sh](https://skills.sh))：**
+
+通过 `npx skills` 安装，让 AI 编程助手自动识别可用资产及其 URL。
+
+Install via `npx skills` so your AI coding agent can automatically discover available assets and their URLs.
+
+```bash
+npx skills add caterpi11ar/assets
+```
 
 ---
 

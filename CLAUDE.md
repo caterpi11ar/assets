@@ -14,6 +14,7 @@ This is a **static assets repository** for the caterpi11ar organization — no b
 | `icon/` | App icons, favicons, platform-specific icon sets |
 | `copyright/` | Copyright statement templates, license notice snippets |
 | `contact/` | Contact info templates (email, social handles, etc.) |
+| `skills/` | Agent skill definitions (skills.sh), installable via `npx skills add caterpi11ar/assets` |
 
 ## Usage by Other Projects
 
